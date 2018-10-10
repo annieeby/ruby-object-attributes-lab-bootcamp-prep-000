@@ -3,11 +3,11 @@ class Dog
   @breed = breed
 end
 
-def name=(name)
+def name=(name)         #reader / getter
   @name = name
 end
 
-def breed=(breed)
+def breed=(breed)       #reader / getter
   @breed = breed
 end
 
