@@ -11,9 +11,9 @@ def breed=(breed)
   @breed = breed
 end
 
-def name
+def name                #writer / setter
   "#{name}".strip
 end
 
-def breed
-  "#{breed}".strip  #writer
+def breed               #writer / setter
+  "#{breed}".strip      
