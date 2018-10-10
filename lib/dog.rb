@@ -5,19 +5,19 @@ class Dog
     @breed = breed
   end
 
-  def name=(name)         #reader / getter
+  def name=(name)         #writer / setter  
     @name = name
   end
   
-  def breed=(breed)       #reader / getter
+  def breed=(breed)       #writer / setter  
     @breed = breed
   end
   
-  def name                #writer / setter
+  def name                #reader / getter
     "#{@name}".strip
   end
   
-  def breed               #writer / setter
+  def breed               #reader / getter
     "#{@breed}".strip    
   end
 
