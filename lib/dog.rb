@@ -16,4 +16,4 @@ def name
 end
 
 def breed
-  "#{breed}".strip  #write
+  "#{breed}".strip  #writer
