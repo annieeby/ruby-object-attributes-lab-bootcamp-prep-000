@@ -3,7 +3,6 @@ class Dog
     @name = name
     @breed = breed
   end
-end
 
 def name=(name)         #reader / getter
   @name = name
@@ -19,4 +18,6 @@ end
 
 def breed               #writer / setter
   "#{breed}".strip    
+end
+
 end
