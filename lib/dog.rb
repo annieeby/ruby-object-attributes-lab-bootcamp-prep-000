@@ -13,11 +13,11 @@ def breed=(breed)       #reader / getter
 end
 
 def name                #writer / setter
-  "#{name}".strip
+  "#{@name}".strip
 end
 
 def breed               #writer / setter
-  "#{breed}".strip    
+  "#{@breed}".strip    
 end
 
 end
