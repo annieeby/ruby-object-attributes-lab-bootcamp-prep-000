@@ -1,8 +1,8 @@
 class Dog
   def initialize(dog, breed)
-  @name = name
-  @breed = breed
-end
+    @name = name
+    @breed = breed
+  end
 end
 
 def name=(name)         #reader / getter
