@@ -17,3 +17,10 @@ class Dog
   end
 
 end
+
+
+#test does not ask for this but I think initialization method would be:
+# def initialize(name, breed)
+#    @name = name
+#    @breed = breed
+#  end
