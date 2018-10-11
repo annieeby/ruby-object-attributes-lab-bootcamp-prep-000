@@ -19,7 +19,7 @@ class Person
 end
 
 #test does not ask for this but I think initialization method would be:
-# def initialize(name, breed)
+# def initialize(name, job)
 #    @name = name
-#    @job = breed
+#    @job = job
 #  end
